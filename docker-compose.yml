@@ -1,0 +1,6 @@
+version: '3'
+services:
+  tool:
+    build: .
+    volumes:
+      - ./lab:/lab
